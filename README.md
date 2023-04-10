@@ -9,3 +9,5 @@ Proje 3 base-apparel url:https://base-apparel-pages.netlify.app/
 Proje 4 cooding-bootcamp url:https://cooding-bootcamp.netlify.app/
 
 Proje 5 css gradient url:https://css-gradient-pages.netlify.app/
+
+Proje 6 expenses-chart url:https://expenses-chart-pages.netlify.app/
