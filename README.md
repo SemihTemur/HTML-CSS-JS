@@ -21,3 +21,5 @@ Proje 9 hesapmakinesi url:https://calculator-hesapmakinesi.netlify.app/
 Proje 10 interactive-card url:https://interactive-carddd.netlify.app/
 
 Proje 11 interactive-princing url:https://interactive-princingg.netlify.app/
+
+Proje 12 interactive-rating url:https://interactive-ratingg.netlify.app/
