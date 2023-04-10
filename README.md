@@ -31,3 +31,5 @@ Proje 14 intro-section url:https://intro-sectionnn.netlify.app/
 Proje 15 news-homepage url:https://news-homepages1.netlify.app/
 
 Proje 16 notficaons-page url:https://notficaons-page.netlify.app/
+
+Proje 17 ping-coming-soon url:https://ping-coming-soonn.netlify.app/
