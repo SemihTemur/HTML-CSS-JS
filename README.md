@@ -27,3 +27,5 @@ Proje 12 interactive-rating url:https://interactive-ratingg.netlify.app/
 Proje 13 intro-component url:https://intro-componenttt.netlify.app/
 
 Proje 14 intro-section url:https://intro-sectionnn.netlify.app/
+
+Proje 15 news-homepage url:https://news-homepages1.netlify.app/
