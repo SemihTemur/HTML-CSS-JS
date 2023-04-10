@@ -13,3 +13,5 @@ Proje 5 css gradient url:https://css-gradient-pages.netlify.app/
 Proje 6 expenses-chart url:https://expenses-chart-pages.netlify.app/
 
 Proje 7 faq url:https://faq-pagess.netlify.app/
+
+Proje 8 filmsitesi url:https://filmsitesii-pages.netlify.app/
