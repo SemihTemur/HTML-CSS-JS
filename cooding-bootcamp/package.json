@@ -1,0 +1,17 @@
+{
+  "name": "js-proje15",
+  "version": "1.0.0",
+  "description": "semih",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "keywords": [
+    "proje"
+  ],
+  "author": "semihtemur",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

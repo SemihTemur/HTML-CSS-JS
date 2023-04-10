@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+    <script src="jquery-3.6.4.min.js"></script>
+</head>
+<body id="body">
+   
+    <h1>Welcome to Gradiant Generator</h1>
+    <p>Please use color boxes to see rgb values</p>
+
+    <form action="#">
+        <input type="color" oninput="change()" class="a"  value="#2A4084" id="blac">
+        <input type="color" class="a" oninput="change1()" id="whit" value="#BBC530">
+    </form>
+
+    <button id="btn">Random</button>
+    <p id="pp">Copy the code below to your css file to apply gradient</p>
+    <h4 id="snc">background : linear-gradient (90deg, <span id="sn">#2A4084, #BBC530</span>) </h4>
+<script src="index.js"></script>
+</body>
+</html>

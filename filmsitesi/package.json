@@ -1,0 +1,18 @@
+{
+  "name": "filmsitesi",
+  "version": "1.0.0",
+  "description": "film",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/  --recursive"
+  },
+  "keywords": [
+    "film",
+    "sass"
+  ],
+  "author": "semih",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

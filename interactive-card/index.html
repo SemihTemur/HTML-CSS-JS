@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="div1">
+            <div class="img1">
+<p id="sfr">000</p>
+            </div>
+
+            <div class="img2">
+               <p id="a"></p>
+               <span id="ff"></span>
+               <p id="b" >  0000 0000 0000 0000</p>
+               <p id="c" >JANE APPLESEED</p>
+               <span id="d">00</span>
+               <span id="blm">/</span>
+               <span id="e">00</span>
+            </div>
+       
+        
+        </div>
+
+
+        <div class="div2" id="dvv">
+<p>  Cardholder Name</p>
+<input type="text" maxlength="20" placeholder="e.g. Jane Appleseed" onkeyup="yazi()" id="es">
+<p>Card Number</p>
+<input type="text"maxlength="20"  placeholder="e.g. 1234 5678 9123 0000" onkeyup="rakam()" id="ess">
+
+<div class="txt">
+    <div class="txt1">
+        <p> Exp. Date (MM/YY) </p>
+        <p>CVC</p>
+    </div>
+
+    <div class="txt2">
+        <input type="text" maxlength="2" placeholder="MM" id="mm" onkeyup="tarih()">
+        <input type="text" maxlength="2" placeholder="YY" id="yy" onkeyup="ay()">
+        <input type="text" maxlength="3" id="ha" placeholder="e.g.123" onkeyup="cvc()">
+    </div>
+
+</div>
+
+<button id="btn" onclick="btn()">  Confirm</button>
+        </div>
+
+        <div class="div3" id="dv">
+            <img src="interactive-card-details-form-main/images/icon-complete.svg">
+            <h1> THANK YOU!</h1>
+            <p>We've added your card details</p>
+            <button onclick="tek()">Continue</button>
+        </div>
+
+
+    </header>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

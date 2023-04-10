@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="div"> 
+   <img src="tip-calculator-app-main/images/logo.svg" id="img"> 
+</div>
+
+
+<header class="header">
+
+<div class="div1">
+    <div class="f">
+<p>Bill</p>
+
+<input type="number"  id="number" value="0">
+</div>
+
+<div class="f1">
+
+<p> Select Tip %</p>
+
+    <div class="grid">
+        <button class="btn">5%</button>
+        <button class="btn">10%</button>
+        <button class="btn">15%</button>
+        <button class="btn">25%</button>
+        <button class="btn">50%</button>
+        <input type="text" placeholder="Custom" class="txt" id="yr" onclick="yüzde()">
+    </div>
+
+</div>
+
+    <div class="f2">
+        <div class="h">
+            <p>Number of People</p>
+            <p id="z">Can't be zero</p>
+        </div>
+ 
+<input type="number"  id="numberr" value="0">
+</div>
+
+</div>
+
+<div class="div2">
+
+    <div class="p">
+        <p> Tip Amount <span id="ss">/ person</span></p>
+        <div class="d">
+            <p id="la">$0.00</p>
+        </div>
+    </div>
+
+    <div class="p1">
+        <p> Total <span id="s">/ person</span></p>
+        <div class="dd">
+            <p id="laa">$0.00</p>
+        </div>
+    </div>
+
+    <button id="rst" onclick="reset()">RESET</button>
+
+</div>
+
+
+</header>
+
+
+<script src="hesap.js">
+
+
+</script>
+    
+
+
+
+</body>
+</html>

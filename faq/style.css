@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+  height: 100%;
+}
+body{
+    font-size: 12px;
+    background:linear-gradient(180deg, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+background-color: white;
+width: 300px;
+border-radius: 20px;
+gap: 40px;
+box-shadow: 0px 20px 30px -25px black;
+}
+#s{
+position: absolute;
+    margin-top: 10px;
+  margin-left: 30px;
+  margin-right: 30px;  
+}
+.flex1>img{
+    width: 225px;
+    margin-top: -90px;
+  margin-left: 30px;
+  margin-right: 30px;
+  
+
+}
+
+.flex2{
+    display: flex;
+    flex-direction: column;
+gap: 15px;
+  
+}
+.flex2>h1{
+    text-align: center;
+  color:  hsl(238, 29%, 16%);
+  margin-top:10px ;
+  margin-bottom: 10px;
+}
+.a{
+    display: flex;
+    justify-content:space-between;
+  padding-left: 15px;
+  padding-right: 20px;
+
+}
+
+.as{
+    display: flex;
+    flex-direction: column;
+ gap: 10px;
+    border-bottom: 1px solid hsl(240, 5%, 91%);;
+    width: 370px;
+}
+.as>p{
+    font-size: 0.825rem;
+    font-family: 'Kumbh Sans', sans-serif;;
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+}
+
+#p{
+    display: none;
+ color:   hsl(240, 6%, 50%);
+ font-size: 12px;
+margin-top: -20px;
+line-height: 17px;
+}
+#o{
+    font-size: 13.5px;
+}
+
+.b{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 20px;
+ 
+}
+
+.as{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.as>p{
+    font-size: 0.825rem;
+    font-family: 'Kumbh Sans', sans-serif;;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.834);
+}
+
+#pp{
+    display:block;
+    color:   hsl(240, 6%, 50%);
+    font-size: 12px;
+   margin-top: -20px;
+   line-height: 17px;
+   
+}
+
+#op{
+    font-weight: 700;
+    font-size: 12.7px;
+}
+#err{
+    transform: rotate(180deg);
+}
+
+
+.c{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 20px;
+ 
+}
+#oc{
+    font-size: 12.8px;
+}
+#od{
+    font-size: 12.5px;
+}
+#oe{
+    font-size: 12.5px;
+}
+.as{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.as>p{
+    font-size: 0.825rem;
+    font-family: 'Kumbh Sans', sans-serif;;
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+}
+
+#ppp{
+    display: none;
+    color:   hsl(240, 6%, 50%);
+    font-size: 12px;
+   margin-top: -20px;
+   line-height: 17px;
+}
+.img{
+    cursor: pointer;
+}
+.yr:hover{
+    color:hsl(14, 88%, 65%);
+}
+
+.d{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 20px;
+ 
+}
+
+.as{
+    display: flex;
+    flex-direction: column;
+   
+}
+.as>p{
+    font-size: 0.825rem;
+    font-family: 'Kumbh Sans', sans-serif;;
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+}
+
+#pppp{
+    display: none;
+    color:   hsl(240, 6%, 50%);
+    font-size: 12px;
+   margin-top: -20px;
+   line-height: 17px;
+}
+
+
+.e{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 15px;
+    padding-right: 20px;
+ padding-bottom: 50px;
+}
+
+.as{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+    width: 370px;
+  
+}
+.as>p{
+    font-size: 0.825rem;
+    font-family: 'Kumbh Sans', sans-serif;;
+    font-weight: 400;
+    color: hsl(237, 12%, 33%);
+}
+
+#ppppp{
+    display: none;
+    color:   hsl(240, 6%, 50%);
+    font-size: 12px;
+   margin-top: -20px;
+   line-height: 17px;
+}
+
+#ss{
+    display: none;
+}
+#yy{
+    display: none;
+}
+#son{
+    display: none;
+}
+.yr{
+    cursor: pointer;
+}
+
+.k{
+    transform: rotate(180deg);
+}
+.kk{
+    transform: rotate(0deg);  
+}
+@media screen and (min-width:850px) {
+
+    #s{
+       display: none;  
+        }
+        #y{
+            display: none;
+        }
+        #yy{
+            display: block;
+            margin-top: 125px;
+            margin-left: -30px;
+            position: absolute;
+            width: 310px;
+        }
+        #ss{
+            display: block;
+           margin-top: 105px;
+          margin-left: -80px;
+            position: absolute;
+            width: 370px;
+        
+        }
+        #son{
+            position: absolute;
+            display: block;
+            margin-top: 175px;
+            margin-left:-100px;
+            width: 190px;
+        }
+        .flex1>img{
+            width: 225px;
+            margin-top: -90px;
+          margin-left: 30px;
+          margin-right: 30px;
+          
+        
+        }
+
+    .flex{
+        display: flex;
+        flex-direction: row;
+        width: 750px;
+    }
+    .flex1{
+        position: relative;
+    }
+    .flex2{
+        margin-top: 40px;
+        margin-left: 270px;
+    }
+    .flex2>h1{
+        text-align: left;
+        margin-left: 15px;
+    }
+    
+
+
+}

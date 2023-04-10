@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+html,body{
+    height: 100%;
+}
+.body{
+    background-color: #fff;
+}
+
+main{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.snap>p{
+    display: none;
+    color:hsl(0, 0%, 41%);
+    font-size: 18px;
+    cursor: pointer;
+}
+.snap{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+.snap>img{
+    margin-right: 20px;
+margin-top: 10px;
+}
+
+.featurs{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    display: none;
+}
+.featurs>img{
+    margin-top: 5px;
+}
+.featurs>p{
+    color:hsl(0, 0%, 41%);
+    font-size: 18px;
+    cursor: pointer;
+}
+.ft{
+    position: absolute;
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-items: flex-start;
+   text-align: left;
+   background-color: rgba(0, 0, 0, 0.175);
+   padding: 20px;
+   border-radius: 10px;
+  margin-left: -60px;
+  display: none;
+
+}
+.ft>div{
+    display: flex;
+    gap: 15px;
+    align-items:flex-start;
+    justify-content: center;
+    text-align: left;
+}
+.ftt>div>p{
+    color: hsl(0, 0%, 41%);
+}
+.company{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    display: none;
+}
+.company>img{
+    margin-top: 5px;
+}
+.company>p{
+    color:hsl(0, 0%, 41%);
+    font-size: 18px;
+    cursor: pointer;
+}
+.com{
+    position: absolute;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-items: flex-start;
+   text-align: left;
+   background-color: red;
+   padding: 20px;
+   border-radius: 10px;
+  margin-left: -2px;
+ display: none;
+}
+.menubar{
+    display:flex;
+    background-color:  hsl(0, 0%, 98%);
+ position: absolute;
+ flex-direction: column;
+ align-items: center;
+ margin-left: -240px;
+ height: 100vh;
+margin-top: -40px;
+width: 250px;
+gap: 15px;
+position: fixed;
+display: none;
+
+}
+.amca{
+    transform: rotate(180deg);
+}
+.ser{
+    display: flex;
+}
+
+    .a{
+        background-color:hsla(0, 0%, 8%, 0.6)
+    }
+.b{
+    background-color: #fff;
+}
+.menu{
+    display: flex;
+    gap: 30px;
+}
+.menu>p{
+    display: none;
+    color:hsl(0, 0%, 41%);
+    font-size: 18px;
+    cursor: pointer;
+}
+#rgs{
+    border: 2px solid hsl(0, 0%, 41%); 
+  background-color:   hsl(0, 0%, 98%);
+border-radius: 10px;
+width: 95px;
+height: 35px;
+margin-top: -5px;
+padding-top: 5px;
+text-align: center;
+}
+
+#close{
+    margin-top: 20px;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-left: 200px;
+}
+.featt{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+margin-top: 80px;
+
+}
+.ftxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-left: -135px;
+}
+.ftxt>p{
+    font-size: 18px;
+    color: hsl(0, 0%, 41%);
+}
+.ftxt>img{
+    margin-top: 5px;
+   
+}
+.ftt{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   align-items: flex-start;
+   text-align: left;
+margin-top: 30px;
+margin-bottom: 20px;
+display:none
+}
+.ftt>div{
+    display: flex;
+    gap: 15px;
+    align-items:flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.compp{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    }
+    .comtxt{
+        display: flex;
+        align-items: center;
+    
+        gap: 10px;
+        margin-left: -107px;
+    }
+    .comtxt>p{
+        color: hsl(0, 0%, 41%);
+    }
+    .com>img{
+        margin-top: 5px;
+    }
+    .comm{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    display: none;
+
+    }
+    .comm>p{
+        color: hsl(0, 0%, 41%);
+        
+    }
+
+    .txtdev{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+       
+        margin-left: -160px;
+    }
+    .txtdev>p{
+        font-size: 17px;
+        color: hsl(0, 0%, 41%);
+    }
+    .login{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+   text-align: center;
+    }
+    .login>p{
+        color: hsl(0, 0%, 41%);
+    }
+#rgst{
+    border: 2px solid hsl(0, 0%, 41%);
+    background-color: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    width: 205px;
+    height: 35px;
+    margin-top: -5px;
+    padding-top: 5px;
+    text-align: center;
+    color: hsl(0, 0%, 41%);
+}
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+       margin-top: 20px;
+       justify-content: center;
+       gap: 30px;
+    }
+.lann{
+    display: flex;
+}
+
+.yer{
+    display: flex;
+}
+.kk{
+    display: block;
+}
+.yerr{
+    display: none;
+}
+    .imgg>img{
+        width: 100vw;
+   margin-left: -10.5px;
+  
+    }
+    .yazi{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .yazi>h1{
+        font-size: 10.5vw;
+        text-align: center;
+        
+    }
+    .yazi>p{
+        text-align: center;
+        font-size: 4.4vw;
+        width: 73vw;
+        line-height: 5.3vw;
+        color:hsl(0, 0%, 41%);;
+        
+    }
+    .yazi>button{
+        border: none;
+        background-color:hsl(0, 0%, 8%);
+        color: hsl(0, 0%, 98%);
+        width: 32vw;
+        height: 35px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .resimler{
+        display: flex;
+        gap: 30px;
+        margin-top: 30px;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .resimler>img{
+        width:15vw;
+        height: 20px;
+    }
+    .amcaa{
+        transform: rotate(180deg);
+    }
+    
+.lann{
+    display: flex;
+}
+#rs{
+    display: none;
+}
+.sonbe{
+    margin-left: -80px;
+}
+.meny{
+    display: block;
+}
+
+.sergen{
+    display: none;
+}
+
+    @media screen and (min-width:768px) {
+        .amcaa{
+            transform: rotate(0deg);
+            display: none;
+        }
+        #arrow{
+            cursor: pointer;
+        }
+        .arroy{
+            cursor: pointer;
+        }
+        .a{
+            background-color:#fff;
+        }
+        .lann{
+            display: none;
+        }
+        .lann{
+            display: none;
+        }
+        body{
+            height: 50%;
+        }
+        main{
+            margin-top: 20px;
+            margin-left: 40px;
+            margin-right: 40px;
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          
+        }
+        .snap>p{
+            display: block;
+        }
+        .snap{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            
+        }
+        .snap>img{
+            margin-right: 20px;
+        margin-top: 10px;
+        }
+        
+        .featurs{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+         
+        }
+        .featurs>img{
+            margin-top: 3px;
+        }
+     
+        .ft{
+            position: absolute;
+            margin-top: 190px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+           align-items: flex-start;
+           text-align: left;
+           padding: 20px;
+           border-radius: 10px;
+          margin-left: -60px;
+      background-color: #fff;
+       display:none;
+       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .semih{
+            display: flex;
+        }
+     
+        .arrow{
+            cursor: pointer;
+        }
+    
+        .ft>div{
+            display: flex;
+            gap: 15px;
+            align-items:flex-start;
+            justify-content: center;
+            text-align: left;
+        }
+        .ft>div>p{
+            color:hsl(0, 0%, 41%);
+        }
+        .company{
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        .company>img{
+            margin-top: 3px;
+        }
+        .com{
+            position: absolute;
+            margin-top: 180px;
+            flex-direction: column;
+            gap: 15px;
+           align-items: flex-start;
+           text-align: left;
+          
+           padding: 20px;
+           border-radius: 10px;
+          margin-left: -2px;
+          background-color: #fff;
+display: none;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .semihh{
+            display: flex;
+        }
+        .yaren{
+            transform: rotate(180deg);
+                    }
+        .com>p{
+            color:hsl(0, 0%, 41%);
+        }
+        .menu{
+            display: flex;
+            gap: 30px;
+        }
+        .menu>p{
+            display: block;
+            margin-top: 8px;
+        }
+        #rgs{
+            margin-top: 2px;
+        }
+        .menu>img{
+            display: none;
+        }
+.menubar{
+    display: none;
+}
+        .footer{
+            display: flex;
+            flex-direction: row-reverse;
+           margin-top: 140px;
+           justify-content: center;
+           gap: 5vw;
+        }
+        .yazi{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 30px;
+        }
+    
+#rsm{
+    display: none;
+}
+#rs{
+    display: block;
+    width: 30vw;
+    height: 73vh;
+    margin-top: -50px;
+}
+        .yazi>h1{
+            font-size: 70px;
+            text-align: left;
+            width: 385px;
+        }
+        .yazi>p{
+            text-align: left;
+            font-size: 16px;
+            width: 320px;
+            line-height: 25px;
+        }
+        .yazi>button{
+            border: none;
+            background-color:black;
+            color: #fff;
+            width: 120px;
+            height: 35px;
+            border-radius: 10px;
+            margin-bottom: 50px;
+            margin-top: 10px;
+        }
+        .resimler{
+            display: flex;
+            gap: 30px;
+            margin-top: 30px;
+            justify-content: flex-start;
+            margin-bottom: 30px;
+        }
+        .resimler>img{
+            width:7.5vw;
+            height:3vw;
+        }
+
+
+    }
+
+    @media screen and (min-width:1024px) {
+        .footer{
+            display: flex;
+            flex-direction: row-reverse;
+           margin-top: 140px;
+           justify-content: center;
+           gap: 8vw;
+        }
+        #rs{
+            display: block;
+            width: 40vw;
+            height: 67vh;
+            margin-top: -50px;
+        }
+    }

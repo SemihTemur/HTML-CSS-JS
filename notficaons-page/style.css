@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 1005;
+}
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+.header{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around; 
+    padding-top: 15px;
+    
+}
+
+.başlik{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding-left: 4%;
+    padding-right: 5%;
+}
+
+.baş{
+    display: flex;
+    gap: 10px;
+}
+
+.baş>h1{
+    font-size: 5vw;
+    padding-top: 10px;
+    font-weight: 700;
+    color: hsl(224, 21%, 14%);
+}
+.baş>p{
+    border: 1px solid black;
+    background-color:    hsl(219, 85%, 26%);
+    color:hsl(0, 0%, 100%);
+width: 8vw;
+height: 7vw;
+text-align: center;
+    border-radius: 8px;
+    margin-top: 7px;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 3.8vw;
+padding-top: 0.8vw;
+}
+.p{
+    padding-top: 10px;
+  
+}
+.p>p{
+    font-weight: 500;
+    color:  hsl(224, 21%, 14%);
+    font-size: 3.5vw;
+}
+.p>p:hover{
+    cursor: pointer;
+    color:hsl(219, 85%, 26%);
+}
+
+#h2:hover{
+    cursor: pointer;
+    color:hsl(219, 85%, 26%);
+}
+#h22:hover{
+    cursor: pointer;
+    color:hsl(219, 85%, 26%);
+}
+#h1:hover{
+    cursor: pointer;
+    color:hsl(219, 85%, 26%);
+}
+.mark{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(249 250 251) ;
+    gap: 12px;
+margin-left: 3vw;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+#h2{
+    font-weight: 600;
+    color: hsl(224, 21%, 14%,0.7);
+    font-size: 3.78vw;
+}
+
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 500;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+padding-top: 3px;
+}
+
+.yuvarlak{
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+.bor:hover{
+    background-color:rgb(219 234 254);
+    cursor: pointer;
+}
+
+
+.angela{
+    margin-top: 30px;
+    display: flex;
+    background-color:rgb(249 250 251) ;
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+#h2{
+    font-weight: 600;
+    color: hsl(224, 21%, 14%,0.7);
+    font-size: 3.78vw;
+}
+
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 500;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+padding-top: 3px;
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+
+.jacob{
+    margin-top: 30px;
+    display: flex;
+    background-color:rgb(249 250 251) ;
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+#h22{
+    font-weight: 600;
+    color:  hsl(219, 85%, 26%);
+    font-size: 3.78vw;
+}
+
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 500;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+padding-top: 3px;
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+
+.nathan{
+    margin-top: 30px;
+    display: flex;
+   
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+#h2{
+    font-weight: 600;
+    color: hsl(224, 21%, 14%,0.7);
+    font-size: 3.7vw;
+}
+
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+   
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+
+
+.anna{
+    margin-top: 30px;
+    display: flex;
+ 
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: 20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+#h22{
+    font-weight: 600;
+    color:  hsl(219, 85%, 26%);
+    font-size: 3.78vw;
+}
+
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+padding-top: 5px;
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+
+
+.nathan{
+    margin-top: 30px;
+    display: flex;
+   
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+#h2{
+    font-weight: 600;
+    color: hsl(224, 21%, 14%,0.7);
+    font-size: 3.7vw;
+}
+
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+   
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+
+
+
+.rizky{
+    margin-top: 30px;
+    display: flex;
+ 
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+padding-top: 5px;
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+.image2>img{
+    width: 10vw;
+}
+.image2>img:hover{
+    cursor: pointer;
+}
+.bor{
+    border: 1px solid rgba(128, 128, 128, 0.182);
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 4vw;
+padding: 15px;
+margin-top: 10px;
+}
+
+
+
+
+.kimberly{
+    margin-top: 30px;
+    display: flex;
+ 
+    gap: 1px;
+margin-left: 3vw;
+gap: 15px;
+width: 93vw;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.image>img{
+    width: 10vw;
+}
+
+#h1{
+    font-size: 3.9vw;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 3.8vw;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 3vw;
+padding-top: 5px;
+}
+
+.yuvarlak{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+.image2>img{
+    width: 10vw;
+}
+
+
+@media screen and (min-width:768px) {
+    body{
+        background-color: hsl(205, 33%, 90%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ .header{
+    width: 600px;
+    background-color: white;
+    height: 760px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+
+ .başlik{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+   padding-top: 10px;
+}
+
+.baş{
+    display: flex;
+    gap: 10px;
+}
+
+.baş>h1{
+    font-size: 30px;
+    padding-top: 10px;
+    font-weight: 700;
+    color: hsl(224, 21%, 14%);
+}
+.baş>p{
+    border: 1px solid black;
+    background-color:    hsl(219, 85%, 26%);
+    color:hsl(0, 0%, 100%);
+width: 25px;
+height: 22px;
+text-align: center;
+    border-radius: 8px;
+    margin-top: 0px;
+    font-weight: 500;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
+padding-top: 1px;
+margin-top: 20px;
+}
+.p{
+    padding-top: 10px;
+  
+}
+.p>p{
+    font-weight: 500;
+    color:  hsl(224, 21%, 14%);
+    font-size: 15px;
+}
+
+
+.mark{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(249 250 251) ;
+    gap: 12px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: -20px;
+}
+.angela{
+    margin-top: 30px;
+    display: flex;
+    background-color:rgb(249 250 251) ;
+    gap: 20px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px; 
+margin-bottom: -20px;
+}
+.jacob{
+    margin-top: 30px;
+    display: flex;
+  
+    background-color:rgb(249 250 251) ;
+    gap: 20px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left:20px;
+margin-bottom: -20px;
+}
+.rizky{
+    margin-top: 30px;
+    display: flex;;
+    gap: 20px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+margin-bottom: 70px;
+}
+.kimberly{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px;
+}
+.nathan{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px; 
+margin-top: 20px;
+}
+.image>img{
+    width: 40px;
+    height: 40px;
+}
+
+#h1{
+    font-size: 15px;
+    font-weight: 1000;
+    color: hsl(224, 21%, 14%);
+    
+}
+.t>p{
+    font-weight: 500;
+    color:  rgb(107 114 128,0.7);
+    font-size: 13px;
+  
+    word-spacing: 1px;
+}
+.tx>p{
+    font-weight: 700;
+    color:  hsl(224, 21%, 14%,0.6);
+    font-size: 13px;
+padding-top: 5px;
+}
+
+.yuvarlak{
+    width: 7px;
+    height: 7px;
+    border-radius: 50px;
+    background-color:  hsl(1, 90%, 64%);
+    display: inline-block;
+    margin-left: 3px;
+}
+.image2>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+#h22{
+    font-size: 13px;
+}
+.bor{
+    font-size: 13px;
+
+}
+
+ #h2{
+    font-size: 13px;
+ }
+
+ 
+ .anna{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+margin-left: 20px;
+width: 555px;
+height: 70px;
+padding: 12px;
+border-radius: 10px;
+padding-left: 20px; 
+margin-top: 20px;
+ }
+
+}
+
+
