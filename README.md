@@ -23,3 +23,5 @@ Proje 10 interactive-card url:https://interactive-carddd.netlify.app/
 Proje 11 interactive-princing url:https://interactive-princingg.netlify.app/
 
 Proje 12 interactive-rating url:https://interactive-ratingg.netlify.app/
+
+Proje 13 intro-component url:https://intro-componenttt.netlify.app/
