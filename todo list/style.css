@@ -1,0 +1,47 @@
+html,body{
+    height: 100%;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: gray;
+}
+h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid yellow;
+    height: 25px;
+}
+button{
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    width: 50px;
+    cursor: pointer;
+}
+.add{
+    background-color: green;
+}
+.clear{
+    background-color: red;
+    width: 60px;
+}
+.container-bottom{
+    text-align: center;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+}
+.paragraph{
+    font-size: 25px;
+    color: purple;
+   margin-bottom: -25px;
+   opacity: 0.9;
+   font-family: 'Times New Roman', Times, serif;
+   cursor: pointer;
+}
