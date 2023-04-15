@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+margin-top: 100px;
+border: 2px solid black;
+width: 90vw;
+max-width: 420px;
+text-align: center;
+gap: 20px;
+border-radius: 20px;
+}
+.container>h1{
+    font-size: 47px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+.container>span{
+    border-bottom: 2px solid rgba(128, 128, 128, 0.164);
+    width: 80vw;
+   max-width: 380px;
+   margin-top: 15px;
+}
+#result{
+    text-align: left;
+    width: 100%;
+    padding-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+margin-bottom: -30px;
+display: none;
+}
+.container>input{
+    width: 180px;
+    height:35px;
+    border: 2px solid rgba(0, 85, 255, 0.432);
+    text-align: center;
+    padding: 5px !important;
+    margin-top: 50px;
+}
+
+button{
+    color:#fff;
+    background: #3f51b5;
+border: none;
+width: 100px;
+height: 35px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.guess-text{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: none;
+    }
+    p{
+        font-size: 24px;  
+    }
+
+    .repeat{
+        width: 170px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+    .events{
+        pointer-events: none;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        border: 1px solid gray;
+        background: gray;
+        width: 100%;
+        text-align: center;
+        color:#fff;
+    }
+    span{
+        color: black;
+    }
