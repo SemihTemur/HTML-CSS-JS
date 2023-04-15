@@ -37,3 +37,5 @@ Proje 17 ping-coming-soon url:https://ping-coming-soonn.netlify.app/
 Proje 18 tip-calculator url:https://tip-calculatorrrrr.netlify.app/
 
 Proje 19 todo-list url:https://todo-list-pages.netlify.app/
+
+Proje 20 soguk-sıcak oyunu url:https://soguk-sicak-oyunu.netlify.app/
