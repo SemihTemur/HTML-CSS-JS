@@ -39,3 +39,5 @@ Proje 18 tip-calculator url:https://tip-calculatorrrrr.netlify.app/
 Proje 19 todo-list url:https://todo-list-pages.netlify.app/
 
 Proje 20 soguk-sıcak oyunu url:https://soguk-sicak-oyunu.netlify.app/
+
+Proje 21 ayakkabı sitesi url:https://shoes-websitee.netlify.app/
