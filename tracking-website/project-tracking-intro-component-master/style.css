@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+/* font-family: 'Barlow Condensed', sans-serif  Weights: 400, 700;
+font-family: 'Barlow', sans-serif  -Weights: 400;
+*/
+
+:root{
+     --VeryDarkBlue: hsl(230, 29%, 20%);
+ --DarkGrayishBlue: hsl(230, 11%, 40%);
+ --GrayishBlue: hsl(231, 7%, 65%);
+ --LightGrayishBlue: hsl(207, 33%, 95%);
+ --Red:hsl(0, 100%, 68%);
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+ height: 100vh;
+ overflow-x: hidden;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.hamburger-menu{
+    position: absolute;
+ left: 10%;
+ top:-100vh;
+ width: 80%;
+ background-color: #fff;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+ gap: 25px;
+ text-transform: uppercase;
+ padding-top: 25px;
+ padding-bottom: 20px;
+ box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ transition:all 0.3s ease-in-out;
+}
+.active{
+top: 15%;
+  
+}
+
+.hamburger-menu>div{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+    width: 90%;
+}
+.hamburger-menu>h1{
+    color:hsl(230, 29%, 20%);
+    font-weight: bold;
+    font-family: 'Barlow Condensed', sans-serif ;
+   cursor: hover;
+   letter-spacing: 2px;
+}
+.hamburger-menu>h1:hover{
+    text-decoration: underline;
+}
+#login2{
+    color: hsl(231, 7%, 65%); 
+}
+.close{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 30px 0px 30px;
+}
+.header-background{
+    position: absolute;
+    right: 0;
+    top: 0;
+background-color:hsl(207, 33%, 95%);
+height: 50vh;
+width: 50vw;
+z-index: -1;
+border-radius:0px 0px 0px 50px;
+}
+nav{
+    display: flex;
+    text-transform: uppercase;  
+   
+}
+nav ul{
+    display: none;
+}
+
+main{ 
+    display: flex;
+    justify-content:flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 20vw;
+    margin-left: 30px;
+}
+.section-text{
+    display: flex;
+    flex-direction: column;
+    gap: 4vw;
+    margin-bottom: 100px;
+}
+
+.section-text-top{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.section-text-top>h1{
+    font-size: 5vw;
+    color:#fff;
+    background-color: var(--VeryDarkBlue);
+    border-radius: 30px;
+    width: 16vw;
+    height: 7.2vw;
+   text-align: center;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif ;
+    font-weight:400;
+   padding-top: 1vw;
+   padding-right: 2vw;
+}
+.section-text-top>p{
+text-transform: uppercase;
+font-family: 'Barlow Condensed', sans-serif ;
+font-weight:400;
+letter-spacing: 4px;
+color: var(--GrayishBlue);
+font-size: 3.5vw;
+}
+.section-text>h1{
+    text-transform: uppercase;
+    color: var(--VeryDarkBlue);
+    font-family: 'Barlow Condensed', sans-serif ;
+    font-weight:700;
+    font-size: 10vw;
+ 
+}
+.section-text>p{
+    margin-bottom: 20px;
+    font-family: 'Barlow', sans-serif ; 
+   font-weight:400;
+   font-size: 4.7vw;
+ 
+}
+
+.section-button{
+    display: flex;
+    gap:4vw;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -10px;
+}
+
+.section-button button{
+    color:#fff;
+    text-transform: uppercase;
+    background: var(--Red);
+    border: none;
+    font-family: 'Barlow Condensed', sans-serif ;
+font-size: 4vw;
+height: 9.5vw;
+width: 35vw;
+border-radius: 5px;
+  font-weight: 500; 
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.section-button button:hover{
+    background-color:hsl(0, 100%, 68%,0.8) ;
+}
+
+.section-button p{
+    text-transform: uppercase;
+font-family: 'Barlow Condensed', sans-serif ;
+font-weight:400;
+letter-spacing: 2px;
+color: var(--GrayishBlue);
+font-size: 3.5vw;
+}
+/* .section-img{
+
+} */
+.section-img>img{
+    width: 90vw;
+}
+.notactive{
+    display: none;
+}
+.activee{
+    display: block;
+}
+@media screen and (min-width:1024px) {
+   
+    header{
+        margin: 50px 10vw 0px 10vw;
+    }
+    .hamburger-menu{
+        display: none;
+    }
+    .notactive{
+        display: none;
+    }
+    .activee{
+        display: none;
+    }
+    .header-background{
+        position: absolute;
+        right: 0;
+        top: 0;
+    background-color:hsl(207, 33%, 95%);
+    height: 50vh;
+    width: 50vw;
+    z-index: -1;
+    border-radius:0px 0px 0px 50px;
+    }
+    nav{
+        gap: 40px;
+        align-items: center;
+    }
+    nav ul{
+        display: block;
+    }
+    #point{
+ color: hsl(231, 7%, 65%);
+font-size: 40px;
+margin-top: -20px;
+display: block;
+    }
+    #login{
+        color: hsl(231, 7%, 65%); 
+    }
+    nav ul li a{
+        color:inherit;
+        font-weight: 700;
+        transition: all 1s ease-in-out;
+    }
+    nav ul li a:hover{
+        text-decoration: underline;
+    }
+    .hamburger{
+        display: none;
+    }
+    main{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+gap: 15px;
+margin-left: 10vw;
+margin-top: 120px;
+    }
+    .section-text{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    
+    .section-text-top{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    .section-text-top>h1{
+        font-size: 20px;
+        color:#fff;
+        background-color: var(--VeryDarkBlue);
+        border-radius: 30px;
+        width: 55px;
+        height: 29px;
+        padding: 3px;
+        padding-left: 2px;
+        padding-top: 4px;
+        text-transform: uppercase;
+        font-family: 'Barlow Condensed', sans-serif ;
+        font-weight:400;
+    }
+    .section-text-top>p{
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif ;
+    font-weight:400;
+    letter-spacing: 6px;
+    font-size: 15px;
+    color: var(--GrayishBlue);
+    }
+    .section-text>h1{
+        text-transform: uppercase;
+        color: var(--VeryDarkBlue);
+        font-family: 'Barlow Condensed', sans-serif ;
+        font-weight:700;
+        font-size: 75px;
+    }
+    .section-text>p{
+        font-family: 'Barlow', sans-serif ; 
+       font-weight:400;
+       font-size: 19px;
+       line-height: 30px;
+       margin-bottom: 50px;
+    }
+    
+    .section-button{
+        display: flex;
+        gap:20px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .section-button button{
+        color:#fff;
+        text-transform: uppercase;
+        background: var(--Red);
+        border: none;
+        font-family: 'Barlow Condensed', sans-serif ;
+    font-weight:500;
+    font-size: 18px;
+    height: 45px;
+    width: 180px;
+    border-radius: 5px;
+    }
+    .section-button p{
+        text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif ;
+    font-weight:400;
+    letter-spacing: 6px;
+    color: var(--GrayishBlue);
+    font-size: 15px;
+    }
+ 
+    .section-img>img{
+        width: 50vw;
+        height: 50vh;
+        margin-top: -30px;
+    }
+}
