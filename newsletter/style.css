@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Roboto&display=swap');
+:root{ 
+--Tomato: hsl(4, 100%, 67%);
+--DarkSlateGrey: hsl(234, 29%, 20%);
+--CharcoalGrey: hsl(235, 18%, 26%);
+--Grey: hsl(231, 7%, 60%);
+--White: hsl(0, 0%, 100%);
+}
+
+/* font-family: 'Kumbh Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+/* - Weights: 400, 700 */
+body{
+    font-size: 16px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+#desktop{
+    display: none;
+}
+.main-top-img>img{
+    width: 100%;
+    height: 100%;
+}
+.main-bottom-text{
+    display: flex;
+    flex-direction: column;
+    gap:4vw;
+    margin: 0px 20px 0px 20px;
+}
+.main-bottom-text>h1{
+    font-family: 'Roboto', sans-serif;;
+font-weight: 700;
+font-size: 7vw;
+}
+.main-bottom-text>p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 5.2vw;
+    color: var(--CharcoalGrey);
+    font-size: 4.5vw;
+    margin-bottom: 10px;
+}
+.tik{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.tik>div{
+    display: flex;
+    gap: 15px;
+    width: 85vw;
+}
+.tik>div>img{
+    width: 4.7vw;
+    height: 4.7vw;
+}
+.tik>div>p{
+  font-size: 4.9vw;
+    color: var(--CharcoalGrey); 
+}
+.mail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mail>div{
+display: flex;
+justify-content: space-between;
+}
+.valid{
+    display: none;
+}
+.active{
+    color: var(--Tomato);
+    display: block;
+    font-weight: 700;
+}
+.mail>div>h1{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.text{
+    height:6vh;
+    border-radius: 5px;
+    border: 1px solid var(--Grey);
+    padding-left:20px;
+}
+.text:hover{
+    cursor: pointer;
+    border: 2px solid black;
+}
+.error{
+    background-color: rgba(255, 0, 0, 0.086);
+    color: var(--Tomato);
+    border: 1px solid var(--Tomato);
+  
+}
+a{
+    width: auto;
+    color: #fff;
+    background-color: var(--DarkSlateGrey);
+    border: none;
+    height: 43.58px;
+    border-radius: 5px;
+margin-top: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 500;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+a:hover{
+    background-color: var(--Tomato);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+@media screen and (min-width:768px) {
+    html,body{
+        height: 100%;
+    }
+   body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--CharcoalGrey);
+    align-items: center;
+   }
+    main{
+        flex-direction: row-reverse;
+        border-radius: 30px;
+        background-color: white;
+        padding: 0px 20px 0px 0px;
+        margin: 0px 20px 0px 20px;
+width: 728px;
+height: 530px;
+    }
+   
+    #mobil{
+        display: none;
+    }
+    #desktop{
+        display: block;
+   
+    }
+    .main-bottom-text{
+        gap:15px;
+        justify-content: center;
+      
+margin-left: 50px;
+margin-top: 40px;
+    }
+    .main-bottom-text>h1{
+    font-size: 50px;
+
+    }
+    .main-bottom-text>p{
+        font-size: 14px;
+        line-height: 20px;
+margin-top: 5px;
+color: var(--CharcoalGrey);
+    }
+  .tik{
+    gap: 10px;
+  }
+    .tik>div{
+        width: auto;
+      
+    }
+    .tik>div>img{
+        width: auto;
+        height: auto;
+    }
+    .tik>div>p{
+      font-size: 16px;
+    
+    }
+    .text{
+       width: 320px;
+      padding-left:20px;
+    }
+    a{
+        width: 343.6px;
+        height: 45px;
+    }
+   
+}
