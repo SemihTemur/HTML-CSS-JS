@@ -47,3 +47,5 @@ Proje 22 hamburger-menu-tracking url:https://tracking-website.netlify.app/
 Proje 23 e-commerce sitesi url:https://e-commerceel.netlify.app/
 
 Proje 24 landing-pages url:https://landing-pagesss.netlify.app/
+
+Proje 25 newsletter url:https://newsletterss.netlify.app/
